@@ -23,7 +23,15 @@
     else if($Op == 'div')
     {
         $result = $Num1 / $Num2;
-        echo $result;
+        if($result != 0)
+        {
+            echo 'Não foi possível realizar essa divisão';
+            
+        }
+        else
+        {
+            echo $result;
+        }
     }
     else if($Op == 'vazio')
     {
