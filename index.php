@@ -13,7 +13,7 @@
         <input name="n1" type="number" placeholder="Primeiro Numero">
         <input name="n2" type="number" placeholder="Segundo Numero">
         <select name="operadores" id="1">
-            <option value=""></option>
+            <option value="vazio"></option>
             <option value="soma">+</option>
             <option value="sub">-</option>
             <option value="div">/</option>

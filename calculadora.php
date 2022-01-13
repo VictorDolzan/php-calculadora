@@ -25,4 +25,8 @@
         $result = $Num1 / $Num2;
         echo $result;
     }
+    else if($Op == 'vazio')
+    {
+        echo 'Retorne a página anterior e escolha um operando';
+    }
 ?>
